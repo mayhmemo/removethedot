@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    font-family: Consolas, Monaco, monospace;
+    background-color: #292a2e;
+    color: #D9D9D9;
+    font-size: 35px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.workspace {
+    align-items: center;
+    margin-top: 150px;
+}
+
+.inbox {
+    background-color: #122216;
+    color: #D9D9D9;
+    border: 0;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: Consolas, Monaco, monospace;
+    padding: 0px 10px;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.btn-inbox {
+    margin-top: 10px;
+    background-color: #122216;
+    color: #D9D9D9;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: Consolas, Monaco, monospace;
+    padding: 0px 10px;    
+}
+
+.cp-inbox {
+    margin: 0 auto;
+    background-color: #122216;
+    color: #D9D9D9;
+    border: 0;
+    min-width: 50%;
+    max-width: 70%;
+    min-height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: Consolas, Monaco, monospace;
+    padding: 0px 10px;   
+    margin-bottom: 0; 
+}
+
+@media screen and (max-width: 600px) {
+    .inbox {
+        width: 80%;
+        font-size: 18px;    
+    }
+    .cp-inbox {
+        width: 90%;
+        font-size: 18px;
+    }
+  }
